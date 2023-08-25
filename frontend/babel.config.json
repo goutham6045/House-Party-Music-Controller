@@ -1,0 +1,17 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets":{
+                    "node":"10"
+                }
+            }
+       ],
+       "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+}
+
+// configuration file for the Babel JavaScript transpiler, which is used to transform modern
+// JavaScript code into backwards-compatible versions that can run on older browsers or environments.
